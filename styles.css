@@ -3,3 +3,26 @@
     background-color: rgb(39, 35, 37);
     color: rgb(255, 246, 230);
 }
+
+body {
+    margin: 80px;
+}
+
+a { color: pink;
+    text-decoration: none;
+    background: none;
+}
+a:hover {
+    color: aqua;
+    text-decoration: underline;
+}
+
+.recipe-list {
+list-style-type: none;
+}
+
+.recipe-list li {
+    padding: 12px;
+    background-color: #FFFFFF15;
+
+}
