@@ -12,6 +12,10 @@ body {
     margin: 80px;
 }
 
+h1 {
+    margin-bottom: 16px;
+}
+
 a { color: pink;
     text-decoration: none;
     background: none;
@@ -23,13 +27,15 @@ a:hover {
 
 .recipe-list {
 list-style-type: none;
+display: flex;
+align-items: center;
+gap: 16px;
 }
 
 .recipe-list li {
     padding: 12px;
-    margin: 24px;
-    width: 400px;
-    height: 200px;
+    width: 200px;
+    height: 50px;
     background-color: #FFFFFF15;
-
+    text-align: center;
 }
